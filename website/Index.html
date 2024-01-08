@@ -1,0 +1,209 @@
+<!--
+    Create About me, Projects, Skills, Contect
+    Ui like:- Button and icon 
+-->
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoin" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contect</a></li>                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vinex</span> from India</h1>
+            </div>
+        </div> 
+    </div>
+    <!-- ------------------about--------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>3rd year student pursuing B.Sc. I.T degree
+                        having good communication skills and
+                        excellency in C, C#, Python, HTML and CSS
+                        languages. Fluent in Hindi, Gujarati and
+                        English.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick= "opentab('project')">Projects</p>
+                        <p class="tab-links" onclick= "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C#</span><br>Desktop application</li>
+                            <li><span>Android</span><br>Mobile application</li>
+                            <li><span>ASP.NET</span><br>Web application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>Text Editor:</span><br>Developed software to edit text similar to notepad
+                                with different version and different design using C#.</li>
+                            <li><span>Patel Drinking:</span><br>An Enterprise Edition Software for the 
+                                water supply management. which is developed in the C# and Database is
+                                Live SQL.</li>
+                            <li><span>RapidReels</span><br>It is an short video app made for final year 
+                                project in which users can post and view videos. Users can like, share 
+                                and comment on videos posted by others. It is created in android 
+                                environment using Kotlin language and firebase database.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - PRESENT Shastri Swami
+                                Shree Dharmajivandasji Institute
+                                of Information Technology,
+                                Junagadh. (BKNMU)
+                                </span><br>B.SC IT</li>
+                            <li><span>2019 - 2021 Bansidhar Vidyalaya,Junagadh. (GS & HSEB)
+                                </span><br>HSC</li>
+                            <li><span>2018 - 2019 Noble High School,Junagadh.(GS & HSEB)</span><br>SSC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------Project------------------------------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">project</h1>
+            <div class="project-list">
+                <div>
+                    <img src="Images/text editor.png">
+                    <h2>Text Editor</h2>
+                    <p>Developed software to edit text similar to notepad with different version and 
+                        different design using C#.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="Images/water.png">
+                    <h2>Patel Drinking</h2>
+                    <p>An Enterprise Edition Software for the 
+                        water supply management</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="Images/reels.png">
+                    <h2>RapidReels</h2>
+                    <p>It is an short video app made for final year 
+                        project in which users can post and view videos.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------Skills-------------------------------------->
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skill-list">
+                <div class="skill-col-1">
+                    <h2>C sharp</h2>
+                    <p>I am powerful in C sharp. I have created a <br>project in C sharp. I want to be a text 
+                       editor <br>just like Notepad. After that I have created <br>management software which was 
+                       my 5th <br> project</p>
+                </div>
+                <div class="skill-col-2">
+                    <h2>Android</h2>
+                    <p>I have created a short video app on Android. <br>And it has a built in firebasefor 
+                        the database. <br>In it, the user can put a video, watch it, like it, follow it</p>
+                </div>
+                <div class="skill-col-3">
+                    <h2>ASP.NET</h2>
+                    <p>We are expert in ASP.NET. I am still<br> making projects like this.Any place <br>that has 
+                        Mana Get No software in it <br>will also open. That's about to change <br>on the web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------Conact-------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="Images/email.png">vinaysureliya@gmail.com</p>
+                    <p><img src="Images/phone.png">7861018177</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vinex.sureliya?mibextid=ZbWKwL"><img src="Images/facebook.png"></a>
+                        <a href="https://instagram.com/vinex_sureliya9?igshid=ZDdkNTZiNTM="><img src="Images/instagram.png"></a>
+                        <a href="https://www.linkedin.com/in/vinex-sureliya-a2998a237"><img src="Images/linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Vinex<img src="Images/heart.png">by Personal</p>
+        </div>
+    </div>
+    <div onclick="scrollToTop()" class="scrollTop">Top</div>
+
+    <!-------------------------------JavaScript---------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");  
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");  
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        function scrollToTop(){
+            window.scrollTo(0, 0);
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzK57Xr74JAEbM7XFqYlvWS9_YjyCcI2TXyVWSK1oK-7Hg6q4axcEtoo6-y_PKPByps6w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully..."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
